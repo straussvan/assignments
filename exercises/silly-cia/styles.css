@@ -1,0 +1,19 @@
+header{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header > h1{
+    color: darkgreen;
+}
+
+.sub-header{
+color:red;
+}
+
+img{
+    float:left;
+}
+p,li{
+    
+}
