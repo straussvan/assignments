@@ -1,0 +1,25 @@
+ .topPage{
+    text-align: center;
+     
+ }
+ .blockDesign {
+    display: inline-block;
+    width: 30vw;
+    color: azure;
+ }
+
+ #imgSize{
+     width: 350px;
+}
+.paragraphStyle{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    width:30vw;
+    
+    color: black
+    
+}
+body{
+    background-color: darkred
+}
