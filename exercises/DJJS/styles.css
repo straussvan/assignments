@@ -1,0 +1,16 @@
+#blue {
+    height: 1000pt;
+    width: 1000pt;
+    border: 1px solid black;
+}
+
+body {
+    height: 6000pt;
+    background-color: darkgoldenrod
+}
+
+
+h1{
+    width: 100%;
+    min-height: 200px; ;
+}

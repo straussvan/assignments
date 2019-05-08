@@ -1,0 +1,41 @@
+#main-navbar{
+    position: fixed;
+    height: 80pt;
+    width: 100%;
+    background-color: firebrick;
+    text-align: center;
+    margin: 0px;
+    padding: 10pt;
+    
+}
+
+
+body{
+    background-color: lightgray;
+    font-size: 20pt;
+
+}
+
+.newpost{
+    font-family: 'Times New Roman', Times, serif;
+    width: 400pt;
+    height: 400pt;
+    top: 300pt;
+    text-align: right;
+    position: relative;    
+    
+}
+
+.oldpost{
+    font-family: 'Times New Roman', Times, serif;
+    width: 400pt;
+    height: 400pt;
+    top: 300pt;
+    text-align: left;
+    position: relative; 
+}
+img{
+    height: 200pt;
+    width: 200pt;
+    
+}
