@@ -1,17 +1,33 @@
 let rockClimber = {
     name: "Tommy",
     status: "Pro",
-    FamousRoutes: ["The Dawn Wall", "The Nose"],
     age: 40,
-    climbingBuddies:[
+    FamousRoutes: ["The Dawn Wall", "The Nose"],
+    climbingBuddies: [
         {
             name: "Alex",
             status: "Pro",
-            FamousRoutes: ["Free Rider"],
             age: 30,
-            
+            FamousRoutes: [
+                {
+                    routeName: "Freerider",
+                    YDS: 5.12
+                }
+            ]
 
+
+        },
+        {
+            name: 'Grant',
+            status: "absolute noob",
+            FamousRoutes: [
+                {
+                    routeName: "tallest route inside the country",
+                    YSD: 5.9
+                }
+            ]
         }
+
     ]
-    
+
 }

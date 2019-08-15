@@ -1,6 +1,6 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-
+import yosemite from "./images/yosemite.jpg";
 
 const Home = () => {
      
@@ -19,21 +19,28 @@ const Home = () => {
                     </Fade>
                 </div>
                 <div className="lower1Home">
-                <h1>The National Park App</h1>
-                    <br></br>
+                    <div className="innerLower">
+                        <h1>The National Park App</h1>
+                            <br></br>
+                    </div>        
                 </div>
                 <div className="lower2Home">
                     <p>I wanted to create an application where users could make a bucket list of National Parks that they wanted to visit, view all the necessary travel information, and keep a personal passport of National Parks they have visited. It utilizes an API created by the National Park Service. It currently displays all of Utahs National Parks with information such as directions, notable park information, and other fun facts.</p>
                     <br></br>
+                    <img src={yosemite} alt=""/>
                 </div>
                 <div className="midHome1">
-                    <h1>The Scooby Doo Adventure!</h1>
+                    <div className="innerMid">
+                        <h1>The Scooby Doo Adventure!</h1>
+                    </div>
                 </div>
                 <div className="midHome2">
                     <p>I created an interactive terminal game that threw you right into solving a mystery with Scooby Doo and the Gang! You get to create you character, look for clues, catch ghouls and ghosts, and get spooked! It was to create something that was so interactive. </p>
                 </div>
                 <div className="bottomHome1">
-                    <h1>Get in touch!</h1>
+                    <Fade left>
+                        <h1>Get in touch!</h1>
+                    </Fade> 
                 </div>
                 <div className="bottomHome2">
                     <a href = "https://github.com/straussvan">github</a>

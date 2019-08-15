@@ -4,16 +4,18 @@ body {
     background-color: #F4F4F8;
     
 }
+
+
 .container{
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(4, 100vh);
     font-family: 'Nunito', sans-serif;
-
-
 }
 
+
 .topHome{
+    display: inline;
     grid-column: 1/-1;
     text-align: left;
     position: relative;
@@ -24,46 +26,191 @@ body {
 }
 
 .lower1Home{
-    background: tomato;
+    background:  #F4F4F8;
     background-position-y: top 20pt;
     grid-column: 1/4;
     padding-left: 100pt;
+    font-size: x-large;
+}
+
+.innerLower{
+    position: sticky;
+    top: 0;
 }
 
 .lower2Home{
     font-size: x-large;
-    background: #FFE479;
+    background:  #F4F4F8;
     grid-column: 4/-1;
     padding-left: 50pt;
     padding-right: 100pt;
 }
 
+.lower2Home > img{
+    width: 100%;
+}
+
 .midHome1{
-    background: tomato;
+    background:  #F4F4F8;
     background-position-y: top 20pt;
     grid-column: 1/4;
     padding-left: 100pt;
+    font-size: x-large;
+}
+
+.innerMid{
+    position: sticky;
+    top: 0;
 }
 
 .midHome2{
     font-size: x-large;
-    background: #FFE479;
+    background:  #F4F4F8;
     grid-column: 4/-1;
     padding-left: 50pt;
     padding-right: 100pt;
 }
 
 .bottomHome1{
-    background: tomato;
+    background: #F4F4F8;
     background-position-y: top 20pt;
     grid-column: 1/4;
     padding-left: 100pt;
+    font-size: x-large;
 }
 
 .bottomHome2{
     font-size: x-large;
-    background: #FFE479;
+    background:  #F4F4F8;
     grid-column: 4/-1;
     padding-left: 50pt;
     padding-right: 100pt;
+}
+
+/* responsive attributes */
+
+@media screen and (max-width: 900px){
+    .container{
+        display: flex;
+        justify-content: center;
+        font-family: 'Nunito', sans-serif;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .topHome{
+        text-align: left;
+        position: relative;
+        top: 200px;
+        /* padding-left: 10pt; */
+        height: 100vh;
+        font-size: large;
+        word-wrap: normal;
+        
+    }
+    .topHome > h1{
+        word-break: normal;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .lower1Home{
+        text-align: left;
+        font-size: large;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .lower2Home{
+
+    }
+}
+
+@media screen and (max-width: 900px){
+    .midHome1{
+
+    }
+}
+
+@media screen and (max-width: 900px){
+    .midHome2{
+
+    }
+}
+
+@media screen and (max-width: 900px){
+    .bottomHome1{
+
+    }
+}
+
+@media screen and (max-width: 900px){
+    .bottomHome2{
+
+    }
+}
+
+/* 768 px media queries */
+
+@media screen and (max-width: 768px){
+    .container{
+        display: flex;
+        justify-content: center;
+        font-family: 'Nunito', sans-serif;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .topHome{
+        text-align: left;
+        position: relative;
+        top: 200px;
+        /* padding-left: 10pt; */
+        height: 100vh;
+        font-size: medium;   
+    }
+
+    .topHome > span {
+        word-wrap: normal;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .lower1Home{
+        text-align: left;
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .lower2Home{
+
+    }
+}
+
+@media screen and (max-width: 768px){
+    .midHome1{
+
+    }
+}
+
+@media screen and (max-width: 768px){
+    .midHome2{
+
+    }
+}
+
+@media screen and (max-width: 768px){
+    .bottomHome1{
+
+    }
+}
+
+@media screen and (max-width: 768px){
+    .bottomHome2{
+
+    }
 }
