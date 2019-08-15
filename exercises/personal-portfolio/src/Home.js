@@ -9,13 +9,13 @@ const Home = () => {
             <div className="container">
                 <div className="topHome">
                     <Fade delay={1000} bottom cascade>
-                    <h1>Hello! My name is Strauss.</h1>
-                    <h1>I'm a fullstack developer, and a design enthusiast.</h1>
-                    <h1>Welcome to my page.</h1>
+                    <h1><span>Hello! My name is Strauss.</span></h1>
+                    <h1><span>I'm a fullstack developer, and a design enthusiast.</span></h1>
+                    <h1><span>Welcome to my page.</span></h1>
                     </Fade>
                     <br></br>
                     <Fade delay={2000} bottom cascade>
-                    <h1>My creations ↓</h1>
+                    <h1><span>My creations ↓</span></h1>
                     </Fade>
                 </div>
                 <div className="lower1Home">

@@ -100,17 +100,20 @@ body {
 
 @media screen and (max-width: 900px){
     .topHome{
+
         text-align: left;
         position: relative;
         top: 200px;
-        /* padding-left: 10pt; */
+        padding-left: 50pt;
+        padding-right: 50pt;
         height: 100vh;
         font-size: large;
         word-wrap: normal;
+        white-space: normal;
         
     }
-    .topHome > h1{
-        word-break: normal;
+    .topHome > h1 > react-reveal{
+        word-wrap: break-word;
     }
 }
 
@@ -118,35 +121,55 @@ body {
     .lower1Home{
         text-align: left;
         font-size: large;
+        padding-left: 50pt;
+        padding-right: 50pt;
+
+
     }
 }
 
 @media screen and (max-width: 900px){
+    .innerLower{
+        top: 0;
+        position: sticky;
+    }
+}
+@media screen and (max-width: 900px){
     .lower2Home{
+        padding-left: 50pt;
+        padding-right: 50pt;
 
     }
 }
 
 @media screen and (max-width: 900px){
     .midHome1{
+        padding-left: 50pt;
+        padding-right: 50pt;
 
     }
 }
 
 @media screen and (max-width: 900px){
     .midHome2{
+        padding-left: 50pt;
+        padding-right: 50pt;
 
     }
 }
 
 @media screen and (max-width: 900px){
     .bottomHome1{
+        padding-left: 50pt;
+        padding-right: 50pt;
 
     }
 }
 
 @media screen and (max-width: 900px){
     .bottomHome2{
+        padding-left: 50pt;
+        padding-right: 50pt;
 
     }
 }
@@ -167,13 +190,10 @@ body {
         text-align: left;
         position: relative;
         top: 200px;
-        /* padding-left: 10pt; */
+        padding-left: 20pt;
+        padding-right: 20pt;
         height: 100vh;
         font-size: medium;   
-    }
-
-    .topHome > span {
-        word-wrap: normal;
     }
     
 }
@@ -182,35 +202,43 @@ body {
     .lower1Home{
         text-align: left;
         font-size: medium;
+        padding-left: 20pt;
+        padding-right: 20pt;
     }
 }
 
 @media screen and (max-width: 768px){
     .lower2Home{
+        padding-left: 20pt;
+        padding-right: 20pt;
 
     }
 }
 
 @media screen and (max-width: 768px){
     .midHome1{
-
+        padding-left: 20pt;
+        padding-right: 20pt;
     }
 }
 
 @media screen and (max-width: 768px){
     .midHome2{
-
+        padding-left: 20pt;
+        padding-right: 20pt;
     }
 }
 
 @media screen and (max-width: 768px){
     .bottomHome1{
-
+        padding-left: 20pt;
+        padding-right: 20pt;
     }
 }
 
 @media screen and (max-width: 768px){
     .bottomHome2{
-
+        padding-left: 20pt;
+        padding-right: 20pt;
     }
 }
