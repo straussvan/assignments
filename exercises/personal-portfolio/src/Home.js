@@ -1,6 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import yosemite from "./images/yosemite.jpg";
+import zionblog from "./images/zionblog.jpg";
 
 const Home = () => {
      
@@ -9,13 +10,13 @@ const Home = () => {
             <div className="container">
                 <div className="topHome">
                     <Fade delay={1000} bottom cascade>
-                    <h1><span>Hello! My name is Strauss.</span></h1>
-                    <h1><span>I'm a fullstack developer, and a design enthusiast.</span></h1>
-                    <h1><span>Welcome to my page.</span></h1>
+                    <h1>Hello! My name is Strauss.</h1>
+                    <h1>I'm a fullstack developer, and a design enthusiast.</h1>
+                    <h1>Welcome to my page.</h1>
                     </Fade>
                     <br></br>
                     <Fade delay={2000} bottom cascade>
-                    <h1><span>My creations ↓</span></h1>
+                    <h1 className="bottomTopHome">My creations ↓</h1>
                     </Fade>
                 </div>
                 <div className="lower1Home">
@@ -31,11 +32,13 @@ const Home = () => {
                 </div>
                 <div className="midHome1">
                     <div className="innerMid">
-                        <h1>The Scooby Doo Adventure!</h1>
+                        <h1>Group Blog Project</h1>
                     </div>
                 </div>
                 <div className="midHome2">
                     <p>I created an interactive terminal game that threw you right into solving a mystery with Scooby Doo and the Gang! You get to create you character, look for clues, catch ghouls and ghosts, and get spooked! It was to create something that was so interactive. </p>
+                    <br></br>
+                    <img src={zionblog} alt=""/>
                 </div>
                 <div className="bottomHome1">
                     <Fade left>

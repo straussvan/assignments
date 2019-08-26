@@ -9,7 +9,7 @@ const Parks = (props) => {
     return (
         <div className="parks">
             {/* <h1>PARKS</h1> */}
-            <img src="https://www.tripsavvy.com/thmb/gC9J63tbSfCmp7fKhlm-txUCe80=/3862x2578/filters:no_upscale()/usa-utah-bryce-canyon-national-park-elevated-view-of-canyon-rock-formations-in-morning-light-537001153-58eaf19f3df78c5162a245f2.jpg"/>
+            <img className="brycePic" src="https://www.tripsavvy.com/thmb/gC9J63tbSfCmp7fKhlm-txUCe80=/3862x2578/filters:no_upscale()/usa-utah-bryce-canyon-national-park-elevated-view-of-canyon-rock-formations-in-morning-light-537001153-58eaf19f3df78c5162a245f2.jpg"/>
             <div className="parkcontainer">
                 {mappedParks}
             </div>
