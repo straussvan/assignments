@@ -12,7 +12,7 @@ class ParksProvider extends Component {
     }
 
     getParks = () => {
-        axios.get("https://developer.nps.gov/api/v1/parks?parkCode=&stateCode=UT&q=National%20Park&sort=&api_key=zgSDkA2ktwoMlLqLloWbSx4wdBShmXIhK2A3FSKa").then((response) => {
+        axios.get("https://developer.nps.gov/api/v1/parks?parkCode=&q=National%20Park&sort=&api_key=zgSDkA2ktwoMlLqLloWbSx4wdBShmXIhK2A3FSKa").then((response) => {
         this.setState({parks: response.data.data})
             // console.log(this.state.parks)
         })

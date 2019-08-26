@@ -23,6 +23,7 @@ body {
     padding-left: 100pt;
     height: 100vh;
     font-size: x-large;
+    word-break: normal;
 }
 
 .lower1Home{
@@ -45,12 +46,14 @@ body {
     padding-left: 50pt;
     padding-right: 100pt;
 }
+/* yosemite image */
 
 .lower2Home > img{
     width: 100%;
 }
 
 .midHome1{
+    padding-top: 24pt;
     background:  #F4F4F8;
     background-position-y: top 20pt;
     grid-column: 1/4;
@@ -64,12 +67,18 @@ body {
 }
 
 .midHome2{
+    padding-top: 24pt;
     font-size: x-large;
     background:  #F4F4F8;
     grid-column: 4/-1;
     padding-left: 50pt;
     padding-right: 100pt;
 }
+
+.midHome2 > img{
+    width: 100%;
+}
+
 
 .bottomHome1{
     background: #F4F4F8;
@@ -80,6 +89,7 @@ body {
 }
 
 .bottomHome2{
+    padding-top: 24pt;
     font-size: x-large;
     background:  #F4F4F8;
     grid-column: 4/-1;
@@ -103,7 +113,7 @@ body {
 
         text-align: left;
         position: relative;
-        top: 200px;
+        top: 100px;
         padding-left: 50pt;
         padding-right: 50pt;
         height: 100vh;
@@ -123,7 +133,7 @@ body {
         font-size: large;
         padding-left: 50pt;
         padding-right: 50pt;
-
+    
 
     }
 }
@@ -132,6 +142,7 @@ body {
     .innerLower{
         top: 0;
         position: sticky;
+        font-size: large;
     }
 }
 @media screen and (max-width: 900px){
@@ -146,7 +157,7 @@ body {
     .midHome1{
         padding-left: 50pt;
         padding-right: 50pt;
-
+        font-size: large;
     }
 }
 
@@ -162,7 +173,7 @@ body {
     .bottomHome1{
         padding-left: 50pt;
         padding-right: 50pt;
-
+        font-size: large;
     }
 }
 
@@ -189,7 +200,7 @@ body {
     .topHome{
         text-align: left;
         position: relative;
-        top: 200px;
+        top: 50px;
         padding-left: 20pt;
         padding-right: 20pt;
         height: 100vh;
@@ -197,7 +208,12 @@ body {
     }
     
 }
-
+@media screen and (max-width:768px){
+   .bottomTopHome{
+       position: sticky;
+       top: 0;
+   }
+}
 @media screen and (max-width: 768px){
     .lower1Home{
         text-align: left;
@@ -205,6 +221,12 @@ body {
         padding-left: 20pt;
         padding-right: 20pt;
     }
+}
+@media screen and (max-width:768px){
+   .innerLower{
+       position: sticky;
+       top: 0;
+   } 
 }
 
 @media screen and (max-width: 768px){
